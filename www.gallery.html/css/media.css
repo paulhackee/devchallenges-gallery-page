@@ -1,0 +1,25 @@
+@media screen and (max-width: 500px) {
+  .profile__acc {
+    margin: 30px 0 14px 0;
+  }
+  .profile__name {
+    margin: 10px 0 4px 0;
+  }
+  .profile__country {
+    margin: 4px 0 6px 0;
+  }
+  .profile__social__info {
+    margin: 6px;
+    min-width: 75px;
+    max-width: 80px;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+  .profile__posts {
+    margin: 20px 0 20px 0;
+    -ms-grid-rows: 110px 110px 1fr;
+        grid-template-rows: 110px 110px 1fr;
+    justify-items: inherit;
+  }
+}
